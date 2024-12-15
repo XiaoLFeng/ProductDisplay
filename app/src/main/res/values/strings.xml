@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ProductDisplay</string>
+    <string name="login">login</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="search_commodity">search products</string>
+    <string name="search">search</string>
+    <string name="add_commodity">add product</string>
+    <string name="commodity_name">product name</string>
+    <string name="commodity_price">product price</string>
+    <string name="commodity_description">product description</string>
+    <string name="add">add</string>
+    <string name="edit">edit</string>
+    <string name="delete">delete</string>
+</resources>

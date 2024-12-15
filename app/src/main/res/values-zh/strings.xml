@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProductDisplay</string>
+    <string name="login">登录</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="search_commodity">搜索商品</string>
+    <string name="search">搜索</string>
+    <string name="add_commodity">添加商品</string>
+    <string name="commodity_name">商品名称</string>
+    <string name="commodity_price">商品价格</string>
+    <string name="commodity_description">商品描述</string>
+    <string name="add">添加</string>
+    <string name="edit">修改</string>
+    <string name="delete">删除</string>
+</resources>

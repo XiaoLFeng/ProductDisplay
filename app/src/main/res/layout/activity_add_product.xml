@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/add_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_commodity"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="product"
+        android:hint="@string/commodity_name"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/product_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="price"
+        android:hint="@string/commodity_price"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/product_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="description"
+        android:hint="@string/commodity_description"
+        android:layout_marginTop="8dp"
+        android:inputType="textMultiLine"/>
+
+    <Button
+        android:id="@+id/add_product_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
